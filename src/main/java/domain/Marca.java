@@ -1,13 +1,13 @@
 package domain;
 
 public class Marca {
-    private String nombre;
+    private String descripcion;
 
-    public Marca(String nombre) {
-        this.nombre = nombre;
+    public Marca(String descripcion) {
+        this.descripcion = descripcion;
     }
 
-    public String getNombre() {
+    public String getDescripcion() {
         return nombre;
     }
 }
