@@ -158,11 +158,9 @@ public class ListarVehiculosView extends javax.swing.JFrame {
          TableModel table = vehiculosGrid.getModel();
          Map<String, Double> lista = new HashMap<>();
          for(int i=0;i< table.getRowCount();i++){
-<<<<<<< HEAD
+
              lista.put((String)table.getValueAt(i, 0), (Double)table.getValueAt(i, 8));
-=======
-             lista.put((String)table.getValueAt(i, 0), (Double)table.getValueAt(i, 7));
->>>>>>> eje3/feature/marcas
+
          }
          double[] consumos = Controlador.calcularConsumos(lista);
          totalConsumoElectricosValue.setText(String.format("%.2f%n kWh", consumos[0]));
