@@ -1,10 +1,16 @@
 data\Persistencia.class
 domain\VehiculoCombustible.class
+<<<<<<< HEAD
 domain\Marca.class
+=======
+views\VehiculoViewModel.class
+views\ListarVehiculosView.class
+>>>>>>> eje3/feature/marcas
 domain\Responsable.class
 domain\Vehiculo.class
 views\ListarVehiculosView$1.class
 domain\VehiculoElectrico.class
+<<<<<<< HEAD
 views\Controlador.class
 app\Program.class
 views\VehiculoViewModel.class
@@ -12,3 +18,9 @@ views\ListarVehiculosView.class
 domain\Sucursal.class
 views\ListarVehiculosView$2.class
 domain\VehiculoTipo.class
+=======
+domain\Sucursal.class
+views\Controlador.class
+views\ListarVehiculosView$2.class
+app\Program.class
+>>>>>>> eje3/feature/marcas

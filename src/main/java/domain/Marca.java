@@ -5,6 +5,7 @@ package domain;
 public class Marca {
     protected String Nombre;
     protected String Pais;
+    private String descripcion;
 
     public String getNombre() {
         return Nombre;
@@ -30,4 +31,14 @@ public class Marca {
     public Marca() {
     }
     
+
+   
+    public Marca(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
 }
